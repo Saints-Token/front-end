@@ -260,12 +260,15 @@ video {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	height: 100vh;
+	
 }
 .intro .overlay {
-	background: rgba(0, 0, 0, 0.432);
+	/* background: rgba(0, 0, 0, 0.432); */
 	opacity: 1;
 	height: 100vh;
+}
+.intro{
+	background: rgba(0, 0, 0, 0.432);
 }
 .intro h1 {
 	font-family: kusanagi;
@@ -619,11 +622,12 @@ header .intro-text {
 	text-align: left;
 	height: 300px;
 	align-items: center;
+	justify-content: space-between;	
 }
 
 #howto .step2{
 	display: flex;
-	justify-content: flex-end;
+	justify-content:  space-between;
 	text-align: right;
 	height: 300px;
 	align-items: center;
@@ -634,14 +638,31 @@ header .intro-text {
 	text-align: left;
 	height: 300px;
 	align-items: center;
+	justify-content:  space-between;
 }
 
 #howto .step4{
 	display: flex;
-	justify-content: flex-end;
+	justify-content:  space-between;
 	align-items: center;
 	text-align: right;
 	height: 300px;
+}
+
+#howto .step4 .countdown{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#howto .step4 .countdown h2{
+	font-family: kusanagi;
+
+}
+
+#howto .step4 .countdown p{
+	font-size: 40px;
+	font-family: gotham_bold;
 }
 
 #howto a{
