@@ -623,6 +623,7 @@ header .intro-text {
 	height: 300px;
 	align-items: center;
 	justify-content: space-between;	
+	flex-wrap: wrap;
 }
 
 #howto .step2{
@@ -631,6 +632,7 @@ header .intro-text {
 	text-align: right;
 	height: 300px;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 #howto .step3{
@@ -639,6 +641,7 @@ header .intro-text {
 	height: 300px;
 	align-items: center;
 	justify-content:  space-between;
+	flex-wrap: wrap;
 }
 
 #howto .step4{
@@ -647,6 +650,7 @@ header .intro-text {
 	align-items: center;
 	text-align: right;
 	height: 300px;
+	flex-wrap: wrap;
 }
 
 #howto .step4 .countdown{
@@ -670,6 +674,48 @@ header .intro-text {
 	font-weight: bold;
 	height: 300px;
 	align-items: center;
+}
+
+@media (max-width: 1000px){
+
+	#howto img{
+		height: 20vh !important;
+	}
+
+
+	#howto .step1 {
+		display: flex;
+		flex-flow: column;
+		text-align: center;
+		
+		height: 60vh;
+		
+	}
+	
+	#howto .step2{
+		display: flex;
+		flex-flow: column-reverse;
+		text-align: center;
+		justify-content: space-around;
+		height: 60vh;
+		
+	}
+	
+	#howto .step3{
+		display: flex;
+		flex-flow: column;
+		text-align: center;
+		justify-content: space-around;
+		height: 60vh;
+	}
+	
+	#howto .step4{
+		display: flex;
+		flex-flow: column-reverse;
+		text-align: center;
+		justify-content: space-around;
+		height: 60vh;
+	}
 }
 
 /* ------------------------------==================================================------------------------------- */
@@ -739,6 +785,92 @@ header .intro-text {
 #howto .tomato {
 	background: linear-gradient(to right, tomato 0%, gold 100%);
   } */
+
+
+/* ------------------------------------------------------------------------ */
+/*                   NFT Air drops */
+/* ------------------------------------------------------------------------ */
+#nft-airdrops{
+	background: linear-gradient(259deg, rgba(197,149,40,1) 33%, rgba(219,174,26,0.4023984593837535) 89%);
+	padding: 30px;
+	
+  }
+  
+  #nft-airdrops .text-box p {
+	text-align: left !important;
+	font-family: gotham-bold !important;
+  }
+  
+  #nft-airdrops .flexrow{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  }
+  
+  
+  #nft-airdrops .special{
+	padding: 30px;
+	color: black;
+	border-radius: 50px;
+
+	/* background: linear-gradient(-45deg, rgba(0,0,0,0.22), #e3aa2eb6);
+	box-shadow:  10px 10px 20px #a77f22,
+			   -15px -5px 20px #d8b15c; */
+  }
+  
+  
+  #nft-airdrops .countdown{
+	display: flex;
+	margin: 30px;
+	justify-content: center;
+	align-items: center;
+	color: rgba(240, 248, 255, 0.904);
+	font-size: 40px;
+	padding: 20px;
+	border-radius: 50px;
+	background: linear-gradient(-45deg, rgba(0,0,0,0.22), #e3aa2eb6);
+	box-shadow:  10px 10px 20px #a77f22,
+			   -10px -10px 20px #e3ab2e;
+  }
+  
+  #nft-airdrops p{
+	font-family: gotham !important;
+	text-align: center;
+	font-weight: bold;
+	color: #171717;
+  }
+  
+  #demo{
+	font-family: kusanagi !important;
+  }
+  
+  #nft-airdrops h1{
+	font-family: kusanagi !important;
+  }
+  #nft-airdrops a{
+	font-family: gotham_bold!important;
+	color:black;
+  }
+  
+  #nft-airdrops .countdown p {
+	font-family: kusanagi !important;
+  }
+  
+  #nft-airdrops .btn-custom3{
+	font-family: gotham_bold;
+	text-transform: uppercase;
+	color: black;
+	margin: 10px !important;
+	background-image: linear-gradient(to right, #ffffff 0%, #a39494 100%);
+	padding: 14px 34px;
+	letter-spacing: 1px;
+	margin: 0;
+	font-size: 15px;
+	font-weight: 500;
+	border-radius: 25px;
+	transition: all 0.5s linear;
+	border: 0;
+  }
 
 /* ----------------------------------------------------------------------------------------- */
 /*                  Whitepaper Section                                                      */

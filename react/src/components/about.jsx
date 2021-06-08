@@ -22,7 +22,7 @@ export const About = (props) => {
                 Live Chart
               </a>
               <a
-                href='#features'
+                href='https://t.me/SaintTokenChat'
                 className='btn btn-custom3 btn-lg '
               >
                 Telegram

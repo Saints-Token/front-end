@@ -10,6 +10,9 @@ import { Team } from './components/team'
 import { Footer } from './components/footer'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
+import { Nft } from './components/nft'
+
+
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -29,6 +32,7 @@ const App = () => {
       <About data={landingPageData.About} />
       <Tokeneconomics data={landingPageData.Features} />
       <Howto/>
+      <Nft/>
       <Whitepaper />
       <Roadmap/>
       <Team data={landingPageData.Team} />

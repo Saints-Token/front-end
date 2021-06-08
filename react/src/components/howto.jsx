@@ -1,34 +1,11 @@
-import { animated, useSpring, Parallax } from 'react-spring';
+import { animated, useSpring, ParallaxLayer } from 'react-spring';
 import { useEffect } from 'react'
 import TrustWallet from '../assets/trustwallet.png'
 import Bnb from '../assets/binance.png'
 import Swap from '../assets/swap.png'
+import Airdrop from '../assets/air.png'
 
 
-const Page = ({ offset, caption, first, second, gradient, onClick }) => (
-  <>
-    <Parallax.Layer offset={offset} speed={0.2} onClick={onClick}>
-      <div className="slopeBegin" />
-    </Parallax.Layer>
-
-    <Parallax.Layer offset={offset} speed={-0.2} onClick={onClick}>
-      <div className={`slopeEnd ${gradient}`} />
-    </Parallax.Layer>
-
-    <Parallax.Layer className="text number" offset={offset} speed={0.3}>
-      <span>0{offset + 1}</span>
-    </Parallax.Layer>
-
-    <Parallax.Layer className="text header" offset={offset} speed={0.4}>
-      <span>
-        <p style={{ fontSize: 20 }}>{caption}</p>
-        <div className={`stripe ${gradient}`} />
-        <p>{first}</p>
-        <p>{second}</p>
-      </span>
-    </Parallax.Layer>
-  </>
-)
 // function LoopTrue() {
 //   const styles = useSpring({
 //     loop: true,
@@ -56,7 +33,7 @@ export const Howto = (props) => {
     <div id='howto' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>How To Buy</h2> 
+          <h2>How To Buy</h2>
         </div>
         <div className="container">
           <div className="row step1">
@@ -88,10 +65,9 @@ export const Howto = (props) => {
             <img src={Swap} style={{'height':'60%'}}></img>
           </div>
           <div className="row step4">
-            <div class="col-md-6 countdown" >
-              <h2>Next NFT Air drop </h2>
-              <p id="demo"></p>
-            </div>
+           
+              <img src={Airdrop}  style={{'height':'60%'}}></img>
+          
             <div className="col-md-6 col-xs-11">
               <h2> Join the Community </h2>
               <p>
