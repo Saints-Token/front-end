@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com'
 import Twitter from '../assets/twitter.png'
 import Telegram from '../assets/telegram.png'
 import Instagram from '../assets/instagram.png'
+import { Socials } from './socialIcons'
 
 const initialState = {
   name: '',
@@ -161,7 +162,7 @@ export const Footer = (props) => {
                 <span>Get connected with us on social networks:</span>
                 <a href="https://t.me/SaintTokenOfficial"> <img src={Telegram} width="50px"/> </a>
                 <a href="https://twitter.com/TheSaintToken"><img src={Twitter} width="50px"/> </a>
-                <a href="https://www.instagram.com/thesainttoken/"><img src={Instagram} width="50px"/></a>     
+                <a href="https://www.instagram.com/thesainttoken/"><img src={Instagram} width="50px"/></a>    
             </div>
           </section>
       

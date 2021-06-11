@@ -5,6 +5,7 @@ import Austin from '../assets/austin.jpeg'
 import Micheal from '../assets/micheal.jpeg'
 import Tiernan from '../assets/tiernan.jpeg'
 import Josh from '../assets/josh.jpg'
+import Niel from '../assets/niel.jpeg'
 
 export const Team = (props) => {
   return (
@@ -39,6 +40,19 @@ export const Team = (props) => {
                           <small class="text-muted">Podcaster / Project Manager</small>
                           <ul class="list-unstyled mt-3 social-icon social mb-0">
                               <li class="list-inline-item"><a href="https://www.linkedin.com/in/socialray/" class="rounded"><i class="mdi mdi-linkedin" title="Linkedin"></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                  <div class="team text-center rounded p-3 py-4">
+                      <img src={Niel} class="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
+                      <div class="content mt-3">
+                          <h4 class="title mb-0">Niel</h4>
+                          <small class="text-muted">Chief Operations Officer</small>
+                          <ul class="list-unstyled mt-3 social-icon social mb-0">
+                              <li class="list-inline-item"><a href="https://www.linkedin.com/in/computeranswers/" class="rounded"><i class="mdi mdi-linkedin" title="Linkedin"></i></a></li>
                           </ul>
                       </div>
                   </div>
