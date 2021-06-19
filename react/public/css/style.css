@@ -294,9 +294,12 @@ video {
 	margin-bottom: 60px;
 }
 header .intro-text {
-	padding-top: 350px;
-	padding-bottom: 200px;
+	display: flex;
+	flex-direction: column;
 	text-align: center;
+	justify-content: center;
+	height: 100vh;
+	padding: 30px;
 	
 }
 
@@ -1266,6 +1269,7 @@ header .intro-text {
 #team img {
 	border-radius: 190px;
 	width: 50%;
+	width: 110px;
 }
 
 #team .row .container{
@@ -1333,6 +1337,7 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
 
 .team:hover .overlay {
 opacity: 0.6;
+
 }
 
 .team:hover .team-social {
@@ -1341,8 +1346,8 @@ opacity: 1;
 
 @media (max-width: 768px) {
 .team{
-	margin-left: 90px;
-	margin-right: 90px;
+	margin-left: 40px;
+	margin-right: 40px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -1579,7 +1584,7 @@ $color-primary-dark: #4f92ac;
 $color-white: #FFFBFA;
 
 $color-black: #191308; */
-
+/* 
 .wrapper {
   display: flex;
   justify-content: space-around;
@@ -1670,4 +1675,4 @@ $color-black: #191308; */
 
   }
 
-}
+} */
