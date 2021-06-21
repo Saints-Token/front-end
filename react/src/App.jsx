@@ -33,7 +33,7 @@ const App = () => {
       <About data={landingPageData.About} />
       <Tokeneconomics data={landingPageData.Features} />
       <Howto/>
-      <Nft/>
+      {/* <Nft/> */}
       <Whitepaper />
       <Roadmap/>
       <Team data={landingPageData.Team} />

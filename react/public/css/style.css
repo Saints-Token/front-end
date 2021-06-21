@@ -381,6 +381,34 @@ header .intro-text {
 	font-weight: 300;
 	padding-right: 8px;
 }
+#contract-address{
+	padding-left: 15%;
+	padding-right: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+}
+#contract-address textarea{
+	width: 100%;
+}
+
+#contract-address button{
+	padding-left: 15%;
+	padding-right: 15%;
+	width: 100%;
+	font-family: gotham_bold;
+	text-transform: uppercase;
+	background-image: linear-gradient(to right, #c7b07c 0%, #C59528 100%);
+	color: black;
+	padding: 14px 34px;
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-weight: 500;
+	transition: all 0.5s linear;
+	/* border-radius:  0px 0px 25px 25px; */
+}
 
 #about .btn-custom1 {
 	font-family: gotham_bold;
@@ -406,8 +434,8 @@ header .intro-text {
 	text-transform: uppercase;
 	color: black;
 	margin: 10px !important;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #b4bec9 0%, #5B6065 100%);
+	background-image: linear-gradient(to right, #c7b07c 0%, #C59528 100%);
+	/* background-image: linear-gradient(to right, #b4bec9 0%, #5B6065 100%); */
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -425,7 +453,8 @@ header .intro-text {
 	text-transform: uppercase;
 	color: black;
 	margin: 10px !important;
-	background-image: linear-gradient(to right, #ffffff 0%, #a39494 100%);
+	background-image: linear-gradient(to right, #c7b07c 0%, #C59528 100%);
+	/* background-image: linear-gradient(to right, #ffffff 0%, #a39494 100%); */
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
