@@ -47,6 +47,19 @@ export const Team = (props) => {
 
               <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
+                      <img src={Austin} class="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
+                      <div class="content mt-3">
+                          <h4 class="title mb-0">Austin</h4>
+                          <small class="text-muted">Head Chair of Board</small>
+                          <ul class="list-unstyled mt-3 social-icon social mb-0">
+                              <li class="list-inline-item"><a href="https://www.linkedin.com/in/austinensz/" class="rounded"><i class="mdi mdi-linkedin" title="Linkedin"></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                  <div class="team text-center rounded p-3 py-4">
                       <img src={Niel} class="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
                       <div class="content mt-3">
                           <h4 class="title mb-0">Niel</h4>
@@ -58,18 +71,6 @@ export const Team = (props) => {
                   </div>
               </div>
 
-              <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
-                  <div class="team text-center rounded p-3 py-4">
-                      <img src={Austin} class="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
-                      <div class="content mt-3">
-                          <h4 class="title mb-0">Austin</h4>
-                          <small class="text-muted">Sales and Marketting</small>
-                          <ul class="list-unstyled mt-3 social-icon social mb-0">
-                              <li class="list-inline-item"><a href="https://www.linkedin.com/in/austinensz/" class="rounded"><i class="mdi mdi-linkedin" title="Linkedin"></i></a></li>
-                          </ul>
-                      </div>
-                  </div>
-              </div>
 
               <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
