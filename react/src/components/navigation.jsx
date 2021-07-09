@@ -58,7 +58,7 @@ export const Navigation = (props) => {
               </a>
             </li> */}
             <li>
-              <a href='https;//forms.gle/wVMegDQfkFHB46FZ6' className='page-scroll'>
+              <a href='https://forms.gle/wVMegDQfkFHB46FZ6' className='page-scroll'>
                 Referal Program
               </a>
             </li>
