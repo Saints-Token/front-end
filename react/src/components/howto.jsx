@@ -1,9 +1,11 @@
-import { animated, useSpring, ParallaxLayer } from 'react-spring';
 import { useEffect } from 'react'
 import TrustWallet from '../assets/trustwallet.png'
 import Bnb from '../assets/binance.png'
 import Swap from '../assets/swap.png'
 import Airdrop from '../assets/air.png'
+
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 
 // function LoopTrue() {
@@ -29,14 +31,18 @@ import Airdrop from '../assets/air.png'
 
 
 export const Howto = (props) => {
+  useEffect(()=>{
+    Aos.init({duration: 2000});
+  },[])
+
   return (
     <div id='howto' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>How To Buy</h2>
+          <h2 data-aos="fade-up" >How To Buy</h2>
         </div>
         <div className="container">
-          <div className="row step1">
+          <div data-aos="fade-left"  className="row step1">
             <div className="col-md-6 col-xs-11">
               <h2> Get a Wallet </h2>
               <p>
@@ -45,7 +51,7 @@ export const Howto = (props) => {
             </div>
             <img style={{'height':'60%'}} src={TrustWallet}></img>
           </div>
-          <div className="row step2">
+          <div data-aos="fade-right" className="row step2">
             <img style={{'height':'60%'}} src={Bnb}></img>
             <div className="col-md-6 col-xs-11">
               <h2> Transfer BNB </h2>
@@ -55,16 +61,18 @@ export const Howto = (props) => {
             </div>
             
           </div>
-          <div className="row step3">
+          <div data-aos="fade-left" className="row step3">
             <div className="col-md-6 col-xs-11">
               <h2> Swap BNB to $Saint </h2>
               <p>
-                Swap your BNB tokens for $Saint tokens on Pancake Swap. <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x503576189Edd9FEb058ad3f17f1E6e9172A11D75"> Click here </a> for a direct swap link or swap using our contract address: 0x503576189Edd9FEb058ad3f17f1E6e9172A11D75.
+                Swap your BNB tokens for $Saint tokens on Pancake Swap. <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x503576189Edd9FEb058ad3f17f1E6e9172A11D75"> Click here </a> for a direct swap link or swap using our contract address: 
+                {/* 0x503576189Edd9FEb058ad3f17f1E6e9172A11D75. */}
               </p>
             </div>
             <img src={Swap} style={{'height':'60%'}}></img>
           </div>
-          <div className="row step4">
+
+          <div data-aos="fade-right"  className="row step4">
            
               <img src={Airdrop}  style={{'height':'60%'}}></img>
           

@@ -27,7 +27,7 @@ const App = () => {
   }, [])
 
   return (
-    <div>
+    <div id="main-wrapper">
       <Navigation />
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />

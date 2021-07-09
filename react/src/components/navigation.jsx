@@ -47,14 +47,19 @@ export const Navigation = (props) => {
                 Whitepaper
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='#roadmap' className='page-scroll'>
                 Roadmap
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href='#team' className='page-scroll'>
                 Team
+              </a>
+            </li> */}
+            <li>
+              <a href='https;//forms.gle/wVMegDQfkFHB46FZ6' className='page-scroll'>
+                Referal Program
               </a>
             </li>
           </ul>

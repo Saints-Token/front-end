@@ -153,20 +153,16 @@ export const Footer = (props) => {
       </div> */}
       <div id='footer'>
         <footer class="text-center text-lg-start bg-light text-muted">
-    
           <section
             class="socials-wrapper"
           >
-        
             <div className="socials">
                 <span>Get connected with us on social networks:</span>
-                <a href="https://t.me/SaintTokenOfficial"> <img src={Telegram} width="50px"/> </a>
+                <a href="https://t.me/SaintTokenChat"> <img src={Telegram} width="50px"/> </a>
                 <a href="https://twitter.com/TheSaintToken"><img src={Twitter} width="50px"/> </a>
                 <a href="https://www.instagram.com/thesainttoken/"><img src={Instagram} width="50px"/></a>    
             </div>
           </section>
-      
-        
           <div class="text-center p-4" >
           © 2021 Copyright:
           <a class="text-reset fw-bold" href="https://mdbootstrap.com/">saint.finance</a>

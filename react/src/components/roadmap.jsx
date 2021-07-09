@@ -1,9 +1,15 @@
+import Aos from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from 'react'
 export const Roadmap = (props) => {
+    useEffect(()=>{
+        Aos.init({duration: 2000});
+    },[])
   return (
     <div id='roadmap' className='text-center'>
         <div class="container">
-          <div className='section-title text-center'>
-            <h2>Roadmap</h2>
+          <div  className='section-title text-center'>
+            <h2 data-aos="fade-up"  >Roadmap</h2>
           </div>
           <div class="main-timeline">
             <div class="timeline">
@@ -16,7 +22,7 @@ export const Roadmap = (props) => {
                       </span>
                   </div>
               </div>
-              <div class="timeline-content">
+              <div data-aos="fade-up" class="timeline-content">
                   <h5 class="title">Genesis</h5>
                   <ul class="description text-muted">
                       <li>
@@ -45,7 +51,7 @@ export const Roadmap = (props) => {
                         </span>
                     </div>
                 </div>
-                <div class="timeline-content">
+                <div  data-aos="fade-up" class="timeline-content">
                     <h5 class="title">Building our community</h5>
                     <ul class="description text-muted">
                         <li>
@@ -80,7 +86,7 @@ export const Roadmap = (props) => {
                         </span>
                     </div>
                 </div>
-                <div class="timeline-content">
+                <div data-aos="fade-up" class="timeline-content">
                     <h5 class="title">The Launch</h5>
                     <ul class="description text-muted">
                         <li>
@@ -112,7 +118,7 @@ export const Roadmap = (props) => {
                         </span>
                     </div>
                 </div>
-                <div class="timeline-content">
+                <div data-aos="fade-up" class="timeline-content">
                     <h5 class="title">An Autonomous organization</h5>
                     <ul class="description text-muted">
                         <li>

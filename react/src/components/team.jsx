@@ -7,7 +7,16 @@ import Tiernan from '../assets/tiernan.jpeg'
 import Josh from '../assets/josh.jpg'
 import Niel from '../assets/niel.jpeg'
 
+import Aos from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from 'react'
+
 export const Team = (props) => {
+    useEffect(()=>{
+        Aos.init({duration: 2000});
+      },[])
+
+
   return (
     <div id='team' className='text-center'>
       <div className='container'>
@@ -19,7 +28,7 @@ export const Team = (props) => {
         <div className="container bootdey">
           <div className="row">
             <div className="container ">
-              <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+              <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
                       <img src={Alex} class="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
                       <div class="content mt-3">
@@ -32,7 +41,7 @@ export const Team = (props) => {
                   </div>
               </div>
               
-              <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+              <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
                       <img src={Ray} class="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
                       <div class="content mt-3">
@@ -45,7 +54,7 @@ export const Team = (props) => {
                   </div>
               </div>
 
-              <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+              <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
                       <img src={Austin} class="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
                       <div class="content mt-3">
@@ -58,7 +67,7 @@ export const Team = (props) => {
                   </div>
               </div>
 
-              <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+              <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
                       <img src={Niel} class="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
                       <div class="content mt-3">
@@ -72,7 +81,7 @@ export const Team = (props) => {
               </div>
 
 
-              <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+              <div  data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
                       <img src={Subaiyal} class="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
                       <div class="content mt-3">
@@ -85,7 +94,7 @@ export const Team = (props) => {
                   </div>
               </div>
 
-              <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+              <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
                       <img src={Micheal} class="img-fluid avatar avatar-medium shadow rounded-pill" alt="" />
                       <div class="content mt-3">
@@ -98,7 +107,7 @@ export const Team = (props) => {
                   </div>
               </div>
               
-              <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+              <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
                       <img src={Tiernan} class="img-fluid avatar avatar-medium shadow rounded-pill" alt="" />
                       <div class="content mt-3">
@@ -111,7 +120,7 @@ export const Team = (props) => {
                   </div>
               </div>
 
-              <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+              <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
                       <img src={Josh} class="img-fluid avatar avatar-medium shadow rounded-pill" alt="" />
                       <div class="content mt-3">
