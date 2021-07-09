@@ -41,7 +41,7 @@ export const Team = (props) => {
                   </div>
               </div>
               
-              <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+              {/* <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
                       <img src={Ray} class="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
                       <div class="content mt-3">
@@ -52,7 +52,7 @@ export const Team = (props) => {
                           </ul>
                       </div>
                   </div>
-              </div>
+              </div> */}
 
               <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
@@ -67,7 +67,7 @@ export const Team = (props) => {
                   </div>
               </div>
 
-              <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+              {/* <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
                       <img src={Niel} class="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
                       <div class="content mt-3">
@@ -78,7 +78,7 @@ export const Team = (props) => {
                           </ul>
                       </div>
                   </div>
-              </div>
+              </div> */}
 
 
               <div  data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
@@ -107,7 +107,7 @@ export const Team = (props) => {
                   </div>
               </div>
               
-              <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+              {/* <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
                       <img src={Tiernan} class="img-fluid avatar avatar-medium shadow rounded-pill" alt="" />
                       <div class="content mt-3">
@@ -118,7 +118,7 @@ export const Team = (props) => {
                           </ul>
                       </div>
                   </div>
-              </div>
+              </div> */}
 
               <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                   <div class="team text-center rounded p-3 py-4">
